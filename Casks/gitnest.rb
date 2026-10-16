@@ -2,10 +2,10 @@
 cask "gitnest" do
   depends_on macos: ">= :ventura"
 
-  version "0.3.0"
+  version "0.4.0"
 
   on_macos do
-    sha256 "9f36e2ea2c513a61e72d8b98340c096f98d74a82025dd7d52a79e99a929fb269"
+    sha256 "8c979bc57821dca7891733e75d94b0490d1e0bb505a07e4bdb797a3aee41e4b7"
     url "https://github.com/Paksonite/gitnest/releases/download/v#{version}/gitnest_#{version}_darwin_universal.tar.gz"
   end
 
@@ -18,6 +18,7 @@ cask "gitnest" do
   end
 
   binary "gitnest"
+  zsh_completion "completions/_gitnest"
 
   postflight do
     if system_command("/usr/bin/xattr", args: ["-h"]).exit_status == 0
