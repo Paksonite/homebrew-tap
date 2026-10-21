@@ -1,6 +1,6 @@
 cask "messenger" do
-  version "0.3.3"
-  sha256 "a30b96ee13bf23ec6f221a1e793b172ef9963d2e87a036b90900e6d1363c965b"
+  version "0.4.0"
+  sha256 "1773296e70946333475beb7411702e9da1a9077a9c5cea4ba19bd9f4080c80d6"
 
   url "https://github.com/Paksonite/messenger/releases/download/v#{version}/Messenger-#{version}.dmg"
   name "Messenger"
@@ -27,6 +27,7 @@ cask "messenger" do
     "~/Library/Application Support/pl.paksonite.messenger",
     "~/Library/Caches/pl.paksonite.messenger",
     "~/Library/HTTPStorages/pl.paksonite.messenger",
+    "~/Library/HTTPStorages/pl.paksonite.messenger.binarycookies",
     "~/Library/Preferences/pl.paksonite.messenger.plist",
     "~/Library/Saved Application State/pl.paksonite.messenger.savedState",
     "~/Library/WebKit/pl.paksonite.messenger",
