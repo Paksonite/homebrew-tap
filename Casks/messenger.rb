@@ -1,6 +1,6 @@
 cask "messenger" do
-  version "0.3.1"
-  sha256 "c6093a03d7227ba86252c3d8a582c6eeb7e92a90b7b6b7767c41d68c71d31875"
+  version "0.3.2"
+  sha256 "498c5460aa2c91671fe451f7cc84cca6f0a15f006fc112ee384065013c9ddc1e"
 
   url "https://github.com/Paksonite/messenger/releases/download/v#{version}/Messenger-#{version}.dmg"
   name "Messenger"
