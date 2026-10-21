@@ -2,10 +2,10 @@
 cask "gitnest" do
   depends_on macos: ">= :ventura"
 
-  version "2.0.8"
+  version "2.0.9"
 
   on_macos do
-    sha256 "5ec50959bdb1c2d2cccf6e86fb6187cfe5347d47110423c50cf9160b10fee414"
+    sha256 "a98932756cd42cee14fb284e78d1cd0ed5ccb034cb5e35cda7ef49d10abd0dc1"
     url "https://github.com/Paksonite/gitnest/releases/download/v#{version}/gitnest_#{version}_darwin_universal.tar.gz"
   end
 
