@@ -1,6 +1,6 @@
 cask "gitnest-view" do
-  version "0.1.19"
-  sha256 "47b5c5080e826cdb2f0b125299b958447ad44d454c8605d9a1480a714de90e18"
+  version "0.1.20"
+  sha256 "af8896786c218a9d591dab87e74741db988b4ada736753dec7c558db780eaa5b"
 
   url "https://github.com/Paksonite/gitnest-view/releases/download/v#{version}/GitNest-View-#{version}.dmg"
   name "GitNest View"
